@@ -1,0 +1,8 @@
+Kubik Menu Header Design:
+- Blocky "KUBIK" text in Minecraft-style font
+- Bold, pixelated appearance
+- Color: White text with dark outline
+- Background: Transparent
+- Size: Optimized for menu display
+- Style: Gaming aesthetic with strong visual impact
+- Should be recognizable at various sizes

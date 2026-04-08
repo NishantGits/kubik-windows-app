@@ -1,0 +1,36 @@
+# HOW TO USE KUBIK (WITHOUT BREAKING PATHS)
+
+This is a portable distribution. It does not need to be installed.
+
+## 1. WHERE TO RUN IT:
+- Run the `kubik.exe` in the ROOT folder where you find it.
+- If you move `kubik.exe` alone, it will fail to find fonts and textures.
+
+## 2. HOW TO STAY PORTABLE:
+- The `kubik.conf` file in this folder stores your settings.
+- The `worlds/` folder will be created in this same folder to store your saves.
+- You can move the entire "Kubik-Final" folder to any USB drive or location on your PC.
+
+## 3. PLAYING THE GAME:
+1. Double-click `kubik.exe`.
+2. Select the "Local Game" tab.
+3. Click "New" to create a world.
+4. Name your world and select a map generator.
+5. Make sure the "devtest" game is selected.
+6. Click "Play Game"!
+
+## 4. CONTROLS:
+- W/A/S/D: Move
+- Space: Jump
+- Left Click: Dig
+- Right Click: Place
+- Mouse Wheel: Scroll Hotbar
+- I: Inventory
+- Esc: Pause / Back to Menu
+- /: Command console (type /help for commands)
+
+## 5. TROUBLESHOOTING:
+- "Failed to find a valid font": Ensure the `fonts/` folder exists and is next to `kubik.exe`.
+- "Could not load textures": Ensure the `textures/` folder exists and is next to `kubik.exe`.
+
+HAVE FUN!

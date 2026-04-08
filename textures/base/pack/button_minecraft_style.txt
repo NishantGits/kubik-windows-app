@@ -1,0 +1,8 @@
+Minecraft-style button texture for Kubik:
+- Thick border: 4-6 pixels wide
+- Main color: Light gray (#C0C0C0)
+- Border color: Dark gray (#555555)
+- Hover state: Slightly lighter main color (#D0D0D0)
+- Pressed state: Darker main color (#A0A0A0)
+- Use 9-slice scaling for proper button sizing
+- Border should be consistent thickness on all sides
