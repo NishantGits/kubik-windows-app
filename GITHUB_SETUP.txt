@@ -1,0 +1,24 @@
+# GITHUB REPOSITORY SETUP INSTRUCTIONS
+
+## Step 1: Create the GitHub Repository
+1. Go to https://github.com/NishantGits/kubik-windows-app
+2. Click "Create repository" (this should work since the repo doesn't exist yet)
+3. Set repository name: "kubik-windows-app"
+4. Set description: "Kubik Windows Portable Distribution - Ready-to-play voxel game engine for Windows"
+5. Make it PUBLIC
+6. DO NOT initialize with README, .gitignore, or license (we already have files)
+7. Click "Create repository"
+
+## Step 2: Push the Local Repository
+Once the repository is created, run these commands in this folder:
+```
+git push -u origin main
+```
+
+## What's Being Pushed:
+- Complete portable Kubik Windows application
+- All dependencies (DLLs, fonts, textures, shaders)
+- Documentation (README.txt, HOW_TO_USE.txt)
+- Ready-to-play distribution
+
+The repository is already initialized and committed locally, just needs the remote repository to exist on GitHub.
