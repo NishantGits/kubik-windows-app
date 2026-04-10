@@ -1,0 +1,56 @@
+========================================
+     KUBIK - DOWNLOAD AND PLAY GUIDE
+========================================
+
+QUICK START (3 STEPS):
+1. Download from GitHub
+2. Double-click FIX-ALL.bat
+3. Game starts automatically!
+
+========================================
+DETAILED INSTRUCTIONS:
+
+STEP 1 - DOWNLOAD:
+- Go to: https://github.com/NishantGits/kubik-windows-app
+- Click "Code" -> "Download ZIP"
+- Extract the ZIP file anywhere on your computer
+
+STEP 2 - RUN THE FIX:
+- Open the extracted folder
+- Double-click: FIX-ALL.bat
+- Wait for it to complete (takes 10-30 seconds)
+- The game will start automatically when done
+
+STEP 3 - PLAY:
+- Use W,A,S,D to move
+- Right-click to place blocks
+- Left-click to dig/break blocks
+- Press I for inventory
+- Press ESC for menu
+
+========================================
+WHAT FIX-ALL.bat DOES:
+- Copies Windows fonts to correct locations
+- Fixes shader path issues (cloud shaders, etc.)
+- Corrects directory structure
+- Creates proper configuration file
+- Starts the game with all fixes applied
+
+========================================
+TROUBLESHOOTING:
+
+If you still get errors:
+1. Run FIX-ALL.bat again (safe to run multiple times)
+2. Make sure you extracted the ZIP file completely
+3. Try running as Administrator
+4. Check that Windows has Arial and Consola fonts
+
+========================================
+FOR ADVANCED USERS:
+- After running FIX-ALL.bat once, you can run kubik.exe directly
+- Configuration is saved in kubik.conf
+- Game saves are in the "worlds" folder
+
+========================================
+ENJOY KUBIK!
+A portable voxel game engine that works anywhere!
