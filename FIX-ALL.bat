@@ -33,17 +33,17 @@ if not exist "shaders" mkdir shaders
 echo Step 3: Copying essential assets from backup locations...
 if exist "textures\textures\*" (
     echo Moving textures to correct location...
-    Move-Item -Path "textures\textures\*" -Destination "textures\" -Force -ErrorAction SilentlyContinue
+    robocopy "textures\textures" "textures" /E /MOVE >nul 2>&1
 )
 
 if exist "client\client\*" (
     echo Moving client files to correct location...
-    Move-Item -Path "client\client\*" -Destination "client\" -Force -ErrorAction SilentlyContinue
+    robocopy "client\client" "client" /E /MOVE >nul 2>&1
 )
 
 if exist "shaders\shaders\*" (
     echo Moving shaders to correct location...
-    Move-Item -Path "shaders\shaders\*" -Destination "shaders\" -Force -ErrorAction SilentlyContinue
+    robocopy "shaders\shaders" "shaders" /E /MOVE >nul 2>&1
 )
 
 echo Step 4: Creating robust configuration...
